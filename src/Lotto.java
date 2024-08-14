@@ -15,7 +15,7 @@ public class Lotto {
         List<Set<Integer>> tickets = generateLottoTickets(TOTAL_TICKETS);
 
         for (int i = 0; i < tickets.size(); i++) {
-            System.out.println("Lotto Ticket " + (i + 1) + ": " + tickets.get(i));
+            System.out.println("Lotto  Ticket " + (i + 1) + ": " + tickets.get(i));
         }
     }
 
